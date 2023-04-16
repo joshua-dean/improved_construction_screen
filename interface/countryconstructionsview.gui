@@ -380,21 +380,20 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_entry_bg"
 			pdx_tooltip = "PRODUCTION_DRAG_N_DROP"
-		}
+		} 
 
 		iconType = {
 			name = "new_glow"
 			position = { x = 0 y = 2 }
 			spriteType = "GFX_construction_line_glow"
-			alwaystransparent = yes
+			alwaystransparent = yes 
             scale = @ICON_SCALE
 		}
 
 		buttonType = {
 			name = "relative_flag"
 			quadTextureSprite ="GFX_construction_flag"
-			position = { x= 0 y = 0}
-            scale = @RELATIVE_FLAG_SCALE
+			position = { x= 0 y = 0 }
 			alwaystransparent = yes
 		}
 		
@@ -550,8 +549,7 @@ guiTypes = {
 		buttonType = {
 			name = "relative_flag"
 			quadTextureSprite ="GFX_construction_flag"
-			scale = @RELATIVE_FLAG_SCALE
-			position = { x= 0 y = 0}
+			position = { x= 0 y = 0 }
 			alwaystransparent = yes
 		}
 
