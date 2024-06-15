@@ -12,7 +12,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "countryconstructionsview"
-		position = { x=-606 y=78}
+		position = { x=-606 y=78 }
 		show_position = { x=-9 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
@@ -218,7 +218,7 @@ guiTypes = {
 				name = "cic_bank_icon"
 				position = { x = 262 y = 22 }
 				spriteType = "GFX_civ_factory_output_icon"
-				#hide = yes # Remove this line to show CIC bank info in the Constructions view.
+				# hide = yes # Remove this line to show CIC bank info in the Constructions view.
 			}
 
 			instantTextboxType = {
@@ -231,7 +231,7 @@ guiTypes = {
 				maxWidth = 70
 				maxHeight = 20
 				format = right
-				#hide = yes # Remove this line to show CIC bank info in the Constructions view.
+				# hide = yes # Remove this line to show CIC bank info in the Constructions view.
 			}
 
 			iconType = {
@@ -301,7 +301,7 @@ guiTypes = {
 			position = { x = 0 y = 130 }
 			size = { width = 440 height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
-			vertical_scroll_step = 52
+			vertical_scroll_step = 50
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
 			margin = { top = 13 left = 13 bottom = 15 right = 25}
