@@ -12,19 +12,19 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "countryconstructionsview"
-		position = { x=-606 y=78}	
+		position = { x=-606 y=78}
 		show_position = { x=-9 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300	
+		animation_time = 300
 		size = { width=550 height=100%% }
 		clipping = no
-		
+
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
-		
+
 		background = {
-			name = "Background"		
+			name = "Background"
 			quadTextureSprite ="GFX_tiled_window_thin_border"
 		}
 
@@ -34,14 +34,14 @@ guiTypes = {
 			position = { x= 5 y = 37 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		iconType ={
 			name ="production_header_bg"
 			spriteType = "GFX_header_bg"
 			position = { x= 5 y = 07 }
 			Orientation = "UPPER_LEFT"
-		}	
-		
+		}
+
 		instantTextboxType = {
 			name = "construction_title"
 			position = { x = 45 y = 8 }
@@ -51,7 +51,7 @@ guiTypes = {
 			text = "CONSTRUCTION_VIEW_LABLE"
 			maxWidth = 240
 			maxHeight = 20
-			format = left	
+			format = left
 		}
 
 		containerWindowType = {
@@ -135,13 +135,13 @@ guiTypes = {
 				pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 			}
 		}
-		
+
 		containerWindowType = {
 			name = "production_win_top"
 			position = { x = 28 y = 26 }
 			size = { width = 100% height = 80% }
 			verticalScrollbar = "right_vertical_slider"
-			
+
 			#background = {
 			#	name = "Background"
 			#	spriteType ="GFX_production_win_top"
@@ -152,8 +152,8 @@ guiTypes = {
 				position = { x = -11 y = 29 }
 				spriteType = "GFX_non_available_factory_icon"
 			}
-			
-			
+
+
 			instantTextboxType = {
 				name = "available_factories_value"
 				position = { x = 10 y = 32 }
@@ -165,8 +165,8 @@ guiTypes = {
 				maxHeight = 20
 				format = center
 			}
-		
-			
+
+
 			instantTextboxType = {
 				name = "from_trade"
 				position = { x = 94 y = 24 }
@@ -177,7 +177,7 @@ guiTypes = {
 				maxWidth = 200
 				maxHeight = 20
 				format = left
-			}			
+			}
 			instantTextboxType = {
 				name = "traded_factories_value"
 				position = { x = 159 y = 24 }
@@ -201,7 +201,7 @@ guiTypes = {
 				maxHeight = 20
 				format = left
 			}
-			
+
 			instantTextboxType = {
 				name = "local_factories_value"
 				position = { x = 159 y = 44 }
@@ -239,7 +239,7 @@ guiTypes = {
 				position = { x = 264 y = 45 }
 				spriteType = "GFX_construction_speed_icon"
 			}
-			
+
 			instantTextboxType = {
 				name = "construction_speed_value"
 				position = { x = 315 y = 44 }
@@ -250,28 +250,28 @@ guiTypes = {
 				maxWidth = 70
 				maxHeight = 20
 				format = right
-			}			
-			
+			}
+
 		}
-			
+
 		instantTextboxType = {
 			name = "location"
 			position = { x = 20 y = 106 }
 			font = "hoi_18mbs"
-			maxWidth = 150			
+			maxWidth = 150
 			text = "CONSTRUCTION_LOCATION_LABEL"
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "task"
 			position = { x = 180 y = 106 }
 			font = "hoi_18mbs"
-			maxWidth = 80				
+			maxWidth = 80
 			text = "CONSTRUCTION_TASK_LABEL"
 			format = center
 		}
-		
+
 		iconType = {
 			name = "factories"
 			position = { x = 274 y = 106 }
@@ -282,20 +282,20 @@ guiTypes = {
 			name = "factories_amount"
 			position = { x = 250 y = 106 }
 			font = "hoi_18mbs"
-			maxWidth = 120				
+			maxWidth = 120
 			text = "CONSTRUCTION_FACTORIES_LABEL"
 			format = center
 		}
-		
+
 		instantTextboxType = {
 			name = "priority"
 			position = { x = 330 y = 106 }
 			font = "hoi_18mbs"
-			maxWidth = 110				
+			maxWidth = 110
 			text = "CONSTRUCTION_PRIORITY_LABEL"
 			format = center
 		}
-			
+
 		containerWindowType = {
 			name = "production_lines"
 			position = { x = 0 y = 130 }
@@ -305,17 +305,17 @@ guiTypes = {
 			scroll_wheel_factor = 40
 			smooth_scrolling = yes
 			margin = { top = 13 left = 13 bottom = 15 right = 25}
-			
+
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window2_1b_border"
 			}
 
 			background = {
-				name = "Background"		
+				name = "Background"
 				quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
 			}
-			
+
 			gridBoxType = {
 				name = "item_grid"
 				position = { x = 1 y = 5 }
@@ -323,14 +323,14 @@ guiTypes = {
 				slotsize = { width = 500 height = 1 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
-			}	
+			}
 		}
-		
+
 		containerWindowType = {
 			name = "possible_constructions"
 			position = { x = 438 y = 48 }
 			size = { width = 104 height = 585 }
-			
+
 			iconType = {
 				name = "constructions_bg1"
 				position = { x = 0 y = 6 }
@@ -342,7 +342,7 @@ guiTypes = {
 				position = { x = 0 y = 152 }
 				quadTextureSprite = "GFX_constructions_bg4"
 			}
-			
+
 			iconType = {
 				name = "constructions_bg3"
 				position = { x = 0 y = 380 }
@@ -366,7 +366,7 @@ guiTypes = {
 				position = { x = 5 y = 383 }
 				quadTextureSprite = "GFX_province_constructions"
 			}
-			
+
 			gridBoxType = {
 				name = "non_shared_item_grid"
 				position = { x = 8 y = 51 }
@@ -375,7 +375,7 @@ guiTypes = {
 				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
-			
+
 			gridBoxType = {
 				name = "shared_item_grid"
 				position = { x = 8 y = 196 }
@@ -384,7 +384,7 @@ guiTypes = {
 				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
-			
+
 			gridBoxType = {
 				name = "province_item_grid"
 				position = { x = 8 y = 422 }
@@ -393,7 +393,7 @@ guiTypes = {
 				max_slots_horizontal = 2
 				format = "UPPER_LEFT"
 			}
-			
+
 			buttonType = {
 				name = "convert_ic_button"
 				position = { x = -50 y = 332 }
@@ -404,7 +404,7 @@ guiTypes = {
 				pdx_tooltip_delayed = "CONSTRUCTION_CONVERT_IC_TOOLTIP_DELAYED"
 			}
 		}
-				
+
 		buttonType = {
 			name = "minimize"
 			position = { x = -93 y = 12 }
@@ -413,7 +413,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "CONSTRUCTION_MINIMIZE"
 		}
-		
+
 		buttonType = {
 			name = "expand"
 			position = { x = -93 y = 12 }
@@ -422,7 +422,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "CONSTRUCTION_EXPAND"
 		}
-		
+
 		buttonType = {
 			name = "close_button"
 			position = { x = -43 y = 9 }
@@ -432,7 +432,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 		}
-		
+
 		#todo remove, text icons are not being displayed unless they are in gui
 		buttonType = {
 			name = "temp"
@@ -441,7 +441,7 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		iconType ={
 			name ="tutorial_glow"
 			spriteType = "GFX_tutorial_building_icon_glow"
@@ -450,21 +450,21 @@ guiTypes = {
 			hide = yes
 		}
 	}
-	
-	
+
+
 	containerWindowType = {
 		name = "start_construction_entry"
 		position = { x=0 y=4 }
 		size = { width = 45 height = 45 }
 		clipping = no
-		
+
 		buttonType = {
 			name = "start_construction_button"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_buildings_strip"
 			clicksound = click_default
 		}
-		
+
 		iconType = {
 			name = "start_construction_overlay"
 			position = { x = -1 y = 0 }
@@ -472,7 +472,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_construction_glow_overlay"
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "production_building_line_entry"
 		position = { x=0 y=0 }
@@ -483,13 +483,13 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_entry_bg"
 			pdx_tooltip = "PRODUCTION_DRAG_N_DROP"
-		} 
+		}
 
 		iconType = {
 			name = "new_glow"
 			position = { x = 0 y = 2 }
 			spriteType = "GFX_construction_line_glow"
-			alwaystransparent = yes 
+			alwaystransparent = yes
             scale = @ICON_SCALE
 		}
 
@@ -499,7 +499,7 @@ guiTypes = {
 			position = { x= 0 y = 0 }
 			alwaystransparent = yes
 		}
-		
+
 
 		instantTextboxType = {
 			name = "location"
@@ -515,13 +515,13 @@ guiTypes = {
 			vertical_alignment = center
 			alwaystransparent = yes
 		}
-	
+
 		iconType = {
 			name = "picture"
 			position = { x = 169 y = 2 }
 			spriteType = "GFX_buildings_strip"
             scale = @ICON_SCALE
-		}		
+		}
 		iconType = {
 			name = "overlay"
 			position = { x = 169 y = 2 }
@@ -530,13 +530,13 @@ guiTypes = {
             scale = @ICON_SCALE
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "progress"
 			spriteType = "GFX_construction_progressbar"
 			position = { x= 274 y = 9 }
 		}
-		
+
 		instantTextboxType = {
 			name = "queued"
 			position = { x = 191 y = 3 }
@@ -548,7 +548,7 @@ guiTypes = {
 			format = left
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "repair"
 			spriteType = "GFX_building_repair"
@@ -563,7 +563,7 @@ guiTypes = {
             hide = yes
 
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 234 y = 3 }
@@ -574,7 +574,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-	
+
 		buttonType = {
 			name = "increase_priority"
 			position = { x=341 y=6 }
@@ -584,7 +584,7 @@ guiTypes = {
 			clicksound = click_default
             scale = @PRIORITY_BUTTON_SCALE
 		}
-		
+
 		buttonType = {
 			name = "decrease_priority"
 			position = { x=353 y=6	 }
@@ -592,9 +592,9 @@ guiTypes = {
 			pdx_tooltip = "PRODUCTION_DECREASE_PRIORITY_LABEL"
 			pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
 			clicksound = click_default
-            scale = @PRIORITY_BUTTON_SCALE 
+            scale = @PRIORITY_BUTTON_SCALE
 		}
-		
+
 		buttonType = {
 			name = "increase_amount"
 			quadTextureSprite ="GFX_zoom_in"
@@ -604,15 +604,15 @@ guiTypes = {
 			scale = 0.7
 			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "decrease_amount"
 			quadTextureSprite ="GFX_zoom_out"
 			position = { x = 205 y = 5 }
 			scale = 0.7
-			clicksound = click_default		
+			clicksound = click_default
 		}
-		
+
 		buttonType = {
 			name = "close_production_line"
 			position = { x=375 y=3	 }
@@ -626,9 +626,9 @@ guiTypes = {
             position = { x = 260 y = 10 }
             quadTextureSprite ="GFX_scorched_earth"
             pdx_tooltip = "SCORCHED_EARTH_STATE_PREVENT_REPAIRS"
-        }		
+        }
 	}
-	
+
 	containerWindowType = {
 		name = "production_railway_gun_repair_entry"
 		position = { x=0 y=0 }
@@ -670,14 +670,14 @@ guiTypes = {
 			vertical_alignment = center
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "picture"
 			position = { x = 169 y = 2 }
 			spriteType = "GFX_buildings_railway_gun"
             scale = @ICON_SCALE
 		}
-		
+
 		iconType = {
 			name = "overlay"
 			position = { x = 169 y = 2 }
@@ -686,13 +686,13 @@ guiTypes = {
 			alwaystransparent = yes
             scale = @ICON_SCALE
 		}
-		
+
 		iconType = {
 			name = "progress"
 			spriteType = "GFX_construction_progressbar"
 			position = { x= 274 y = 9 }
 		}
-		
+
 		instantTextboxType = {
 			name = "queued"
 			position = { x = 191 y = 3 }
@@ -704,7 +704,7 @@ guiTypes = {
 			format = left
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "repair"
 			spriteType = "GFX_building_repair"
@@ -718,7 +718,7 @@ guiTypes = {
 			position = { x = 254 y = 3 }
             hide = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 234 y = 3 }
@@ -729,7 +729,7 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
-	
+
 		buttonType = {
 			name = "increase_priority"
 			position = { x=318 y=6 }
@@ -739,7 +739,7 @@ guiTypes = {
 			clicksound = click_default
 			scale = @PRIORITY_BUTTON_SCALE
 		}
-		
+
 		buttonType = {
 			name = "decrease_priority"
 			position = { x=341 y=6	 }
@@ -748,9 +748,9 @@ guiTypes = {
 			pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
 			clicksound = click_default
 			scale = @PRIORITY_BUTTON_SCALE
-		}	
+		}
 	}
-	
+
 	containerWindowType = {
 		name = "static_consumer_goods_entry"
 		position = { x=0 y=0 }
@@ -761,7 +761,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_special_entry_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 3 }
@@ -772,21 +772,21 @@ guiTypes = {
 			maxWidth = 150
 			maxHeight = 20
 			format = left
-			vertical_alignment = center 
-			
+			vertical_alignment = center
+
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "picture"
 			position = { x = 210 y = 13 }
 			spriteType = "GFX_consumer_goods_icon"
 			centerposition = yes
 			scale = @ICON_SCALE
-			
+
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 234 y = 3 }
@@ -796,11 +796,11 @@ guiTypes = {
 			maxWidth = 42
 			maxHeight = 20
 			format = center
-			
+
 			alwaystransparent = yes
-		}		
+		}
 	}
-	
+
 	containerWindowType = {
 		name = "static_traded_factories_entry"
 		position = { x=0 y=0 }
@@ -811,7 +811,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_special_entry_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 3 }
@@ -822,20 +822,20 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 20
 			format = left
-			
+
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "picture"
 			position = { x = 210 y = 13 }
 			spriteType = "GFX_traded_factories_icon"
 			centerposition = yes
             scale = @ICON_SCALE
-			
+
 			alwaystransparent = yes
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 234 y = 3 }
@@ -845,9 +845,9 @@ guiTypes = {
 			maxWidth = 42
 			maxHeight = 20
 			format = center
-			
+
 			alwaystransparent = yes
-		}		
+		}
 	}
 
 	containerWindowType = {
@@ -860,7 +860,7 @@ guiTypes = {
 			name = "Background"
 			quadTextureSprite ="GFX_construction_special_entry_bg"
 		}
-		
+
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 3 }
@@ -871,20 +871,20 @@ guiTypes = {
 			maxWidth = 150
 			maxHeight = 20
 			format = left
-			
+
 			alwaystransparent = yes
 		}
-		
+
 		iconType = {
 			name = "picture"
 			position = { x = 210 y = 13}
 			spriteType = "GFX_special_project_icon"
 			centerposition = yes
-			
+
 			alwaystransparent = yes
             scale = @ICON_SCALE
 		}
-		
+
 		instantTextboxType = {
 			name = "factories"
 			position = { x = 234 y = 3 }
@@ -894,9 +894,9 @@ guiTypes = {
 			maxWidth = 42
 			maxHeight = 20
 			format = center
-			
+
 			alwaystransparent = yes
-		}		
+		}
 	}
 
 	containerWindowType = {
