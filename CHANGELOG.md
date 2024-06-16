@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] - 2024-06-15 - HoI4 1.14.6
+### Fixed
+- RT56 compatibility (`convert_ic_button` placement)
+
 ## [0.2.0] - 2024-06-15 - HoI4 1.14.6
 ### Added
 - Display "Market Contracts" entry in the construction screen
